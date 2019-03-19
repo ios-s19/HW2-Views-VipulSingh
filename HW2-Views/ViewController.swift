@@ -18,7 +18,7 @@ class ViewController: UIViewController {
             let firstView = UIView (frame : firstFrame)
             firstView.backgroundColor = UIColor.green
             view.addSubview(firstView)
-            print("view did load")
+            print("view did load") 
     
             let secondFrame = CGRect(x: 70 , y: 5, width: 50, height: 195)
             let secondView = UIView (frame : secondFrame)
